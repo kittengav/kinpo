@@ -1,0 +1,41 @@
+{
+  "notes": {
+    "note1": {
+      "prop1": [ 1, 2, 3, 4],
+      "prop2": [ 0, -1, 7, 2],
+      "prop3": [ 1, 2, 8, 3]
+    },
+    "note2": {
+      "prop1": [ 1,99, 3, 23],
+      "prop2": [ 1, 50, 1, 4]
+    },
+    "note3": {
+      "prop1": [ 1, 2, 42, 4],
+      "prop3": [ 1, 123, 3, 4]
+    },
+    "note4": {
+      "prop2": [ 1, 23, 37, 4],
+      "prop3": [ 657, 2, 23, 1]
+    }
+  },
+  "classes": {
+    "class1": {
+      "properties": ["prop1"],
+      "count": {
+        "prop1": 4
+      },
+      "values": {
+        "prop1": [1,3]
+      }
+    },
+    "class2": {
+      "properties": ["prop1", "prop3"],
+      "count": {
+        "prop1": 4
+      },
+      "values": {
+        "prop1": [2,3]
+      }
+    }
+  }
+}

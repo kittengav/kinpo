@@ -6,6 +6,7 @@
 #include <vector>
 #include "NoteClass.h"
 #include "JsonParser.h"
+#include "Test.h"
 
 using namespace std;
 using namespace nlohmann;
@@ -29,6 +30,11 @@ int main(int argc, char* argv[]) {
 	}
 
 	if (argc == 2) {
+		if (argv[1] == string("test")) {
+			Test tests;
+			tests.run_tests();
+			return 0;
+		}
 		infile = argv[1];
 	}
 
